@@ -5,7 +5,7 @@ existing in clips within the same video. We thus propose to learn dual represent
 encode intra-variance through a shuffle and rank pretext task; (2) encode inter-variance through a temporal 
 coherent contrastive loss. Experiment results show our method plays an important role in balancing inter and intra variance 
 and brings consistent performance gains on multiple backbones and contrastive learning frameworks. Integrated with SimCLR and 
-pretrained on Kinetics-400, our method achieves $82.0\%$ and $51.2\%$ downstream finetuning classification accuracy on UCF101 
+pretrained on Kinetics-400, our method achieves 82.0% and 51.2% downstream finetuning classification accuracy on UCF101 
 and HMDB51 test sets respectively and 46.1% video retrieval accuracy on UCF101, outperforming both pretext-task based and 
 contrastive learning based counterparts.
 
