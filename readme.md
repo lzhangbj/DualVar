@@ -19,7 +19,7 @@ contrastive learning based counterparts.
 
 ### Running experiment
 Before running code
-1. adjust dataset directory in  ```dataset/local_dataset.py```
+1. Replace dataset directory in  ```dataset/local_dataset.py```
 
 2. Prepare your own running settings ```paper_scripts/*/*/sh``` 
 
