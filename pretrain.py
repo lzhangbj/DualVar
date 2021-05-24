@@ -122,6 +122,7 @@ def parse_args():
     parser.add_argument('--seed', default=0, type=int)
     # augmentation
     parser.add_argument("--aug_temp_consist", action='store_true')
+    parser.add_argument("--aug_series", action='store_true')
     parser.add_argument("--rand_flip", action='store_true')
     # optimizer
     parser.add_argument('--optim', default='sgd', type=str)
@@ -535,10 +536,10 @@ def get_data(transform, mode, args):
     args.logger.info('Loading data for "%s" mode' % mode)
 
     if args.dataset == 'ucf101-2clip-stage-prototype':
-        dataset = UCF101LMDB_2CLIP_Stage_Prototype(rand_flip=args.rand_flip, mode=mode, transform=transform,
+        dataset = UCF101LMDB_2CLIP_Stage_Prototype(aug_series=args.aug_series, rand_flip=args.rand_flip, mode=mode, transform=transform,
                                    num_frames=args.seq_len, ds=args.ds, return_label=True)
     elif args.dataset == 'k400-2clip-stage-prototype':
-        dataset = K400LMDB_2CLIP_Stage_Prototype(rand_flip=args.rand_flip, mode=mode, transform=transform,
+        dataset = K400LMDB_2CLIP_Stage_Prototype(aug_series=args.aug_series, rand_flip=args.rand_flip, mode=mode, transform=transform,
                                    num_frames=args.seq_len, ds=args.ds, return_label=True)
     else:
         raise NotImplementedError()
