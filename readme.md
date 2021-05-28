@@ -30,9 +30,6 @@ Select you running mode ```{mode}``` and experiment name ```{exp}``` , and run
 bash paper_scripts/{mode}/{exp}.sh
 ```
 
-### Pretrained model
-You can download our pretrained R21D backbone on Kinetics400 from Google drive link here.
-
 ### Peformance comparison
 
 ![Finetuning Comparison](asset/finetune_acc.png)
