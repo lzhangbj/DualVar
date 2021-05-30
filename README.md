@@ -1,4 +1,4 @@
-## Official implementation for paper "Inter-Intra Dual Representations for Self-supervised Video Recognition"
+## Official implementation for paper "How Incomplete is Contrastive Learning for Self-supervised Video Recognition? An Inter-intra Variant Dual Representation Method"
 Contrastive learning has proven to be effective in self-supervised learning. In this paper, we find that existing contrastive 
 learning based solutions for self-supervised video recognition focus on inter-variance encoding but ignore the intra-variance 
 existing in clips within the same video. We thus propose to learn dual representations for each clip which (1) 
