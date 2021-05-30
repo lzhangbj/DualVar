@@ -11,6 +11,8 @@ contrastive learning based counterparts.
 
 ![Overview](asset/overview.png)
 
+# Set up
+The code is based on Python3.8 and PyToch 1.8.1.
 
 ### Data preparation
 1. Download UCF101, HMDB51 and Kinetics400 dataset.
@@ -23,7 +25,7 @@ Before running code
 
 2. Prepare your own running settings ```paper_scripts/*/*/sh``` 
 
-3. We provide pretrain, finetune, test and test retrieval command in ``paper_scripts``. We also pack up all commands into one file in ```run``` mode.
+We provide pretrain, finetune, test and test retrieval command in ``paper_scripts``. We also pack up all commands into one file in ```run``` mode.
 Select you running mode ```{mode}``` and experiment name ```{exp}``` , and run
 
 ```angular2html
