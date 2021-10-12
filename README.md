@@ -46,7 +46,7 @@ bash paper_scripts/{mode}/{exp}.sh
 
 
 ### Acknowledgement
-We refer the code frameworks of CoCLR. Thank Tengda for his excellent work!
+We refer the code frameworks of [CoCLR](https://github.com/TengdaHan/CoCLR). Thank Tengda for his excellent work!
 
 If you find our work useful, please cite it:
 
