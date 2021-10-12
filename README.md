@@ -50,14 +50,14 @@ We refer the code frameworks of CoCLR. Thank Tengda for his excellent work!
 
 If you find our work useful, please cite it:
 
-'''
+```
 @article{lin2021dualvar
  author = {Lin, Zhang and Qi, She and Zhengyang, Shen and Changhu, Wang},
  booktitle = {arXiv preprint arXiv:2107.01194},
  title = {How Incomplete is Contrastive Learning for Self-supervised Video Recognition? An Inter-intra Variant Dual Representation Method},
  year = {2021}
 }
-'''
+```
 
 
 
