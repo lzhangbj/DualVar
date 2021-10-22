@@ -1,15 +1,5 @@
-# The code is not well organized. We are still working on this. Feel free to clone it for reference.
-
-## Official implementation for paper "How Incomplete is Contrastive Learning for Self-supervised Video Recognition? An Inter-intra Variant Dual Representation Method"
-Contrastive learning has proven to be effective in self-supervised learning. In this paper, we find that existing contrastive 
-learning based solutions for self-supervised video recognition focus on inter-variance encoding but ignore the intra-variance 
-existing in clips within the same video. We thus propose to learn dual representations for each clip which (1) 
-encode intra-variance through a shuffle and rank pretext task; (2) encode inter-variance through a temporal 
-coherent contrastive loss. Experiment results show our method plays an important role in balancing inter and intra variance 
-and brings consistent performance gains on multiple backbones and contrastive learning frameworks. Integrated with SimCLR and 
-pretrained on Kinetics-400, our method achieves 82.0% and 51.2% downstream finetuning classification accuracy on UCF101 
-and HMDB51 test sets respectively and 46.1% video retrieval accuracy on UCF101, outperforming both pretext-task based and 
-contrastive learning based counterparts.
+## Official implementation for BMVC 2021 poster paper "Inter-intra Variant Dual Representations for Self-supervised Video Recognition"
+Contrastive learning applied to self-supervised representation learning has seen a resurgence in deep models. In this paper, we find that existing contrastive learning based solutions for self-supervised video recognition focus on inter-variance encoding but ignore the intra-variance existing in clips within the same video. We thus propose to learn dual representations for each clip which (\romannumeral 1) encode intra-variance through a shuffle-rank pretext task; (\romannumeral 2) encode inter-variance through a temporal coherent contrastive loss. Experiment results show that our method plays an essential role in balancing inter and intra variances and brings consistent performance gains on multiple backbones and contrastive learning frameworks. Integrated with SimCLR and pretrained on Kinetics-400, our method achieves $\textbf{82.0\%}$ and $\textbf{51.2\%}$ downstream classification accuracy on UCF101 and HMDB51 test sets respectively and $\textbf{46.1\%}$ video retrieval accuracy on UCF101, outperforming both pretext-task based and contrastive learning based counterparts.
 
 ![Overview](asset/overview.png)
 
@@ -53,8 +43,8 @@ If you find our work useful, please cite it:
 ```
 @article{lin2021dualvar
  author = {Lin, Zhang and Qi, She and Zhengyang, Shen and Changhu, Wang},
- booktitle = {arXiv preprint arXiv:2107.01194},
- title = {How Incomplete is Contrastive Learning for Self-supervised Video Recognition? An Inter-intra Variant Dual Representation Method},
+ booktitle = {BMVC},
+ title = {Inter-intra Variant Dual Representations forSelf-supervised Video Recognition},
  year = {2021}
 }
 ```
